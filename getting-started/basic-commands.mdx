@@ -1,65 +1,56 @@
 ---
 title: "Complete Commands Reference for Hikari Haven Players"
-sidebarTitle: "Basic Commands"
 description: "Quick reference for every Hikari Haven command: navigation, teleport, homes, world travel, private messaging, economy, and much more."
+sidebarTitle: "Basic Commands"
 ---
 
-Every command on Hikari Haven is entered directly into the Minecraft chat. Wherever you see angle brackets like `<player>` or `<amount>`, replace them with your own value — leave the brackets out when you type the actual command. The tabs below group commands by what they do so you can find what you need quickly.
+## Everyday essentials
 
-<Warning>
-  Only accept teleport requests from players you trust. Never use teleport commands to trap, strand, or harass another player — doing so is a rule violation and may result in a ban.
-</Warning>
+Type commands into Minecraft chat. Replace anything in angle brackets with your own value, without typing the brackets.
 
-<Tabs>
-  <Tab title="Navigation">
-    | Command | What it does |
-    |---|---|
-    | `/spawn` | Teleport back to the Spawn town center |
-    | `/sethome` | Save a home at your current location |
-    | `/sethome <name>` | Save a named home (if multiple homes are enabled) |
-    | `/home` | Teleport to your saved home |
-    | `/home <name>` | Teleport to a specific named home |
-    | `/homes` | List all your saved homes |
-    | `/delhome <name>` | Delete a saved home |
-    | `/back` | Return to your previous location — do not assume this includes your death location |
-    | `/warps` | Browse all available public warp points |
-    | `/warp <name>` | Teleport to a specific public warp |
-    | `/rtp` | Request a random teleport into the wild (where enabled) |
-  </Tab>
+| Command | What it does |
+| --- | --- |
+| `/spawn` | Return to Spawn. |
+| `/sethome` | Set a home at your current location. |
+| `/home` | Teleport to your saved home. |
+| `/tpa <player>` | Ask to teleport to a player. They must accept. |
 
-  <Tab title="Teleport">
-    | Command | What it does |
-    |---|---|
-    | `/tpa <player>` | Ask to teleport to another player — they must accept |
-    | `/tpahere <player>` | Ask another player to teleport to you — they must accept |
-    | `/tpaccept` | Accept an incoming teleport request |
-    | `/tpdeny` | Decline an incoming teleport request |
-  </Tab>
+## Travel between worlds
 
-  <Tab title="World Travel">
-    | Command | What it does |
-    |---|---|
-    | `/server blackcity` | Travel to Black City (legacy/whitelisted players only) |
-    | `/server whiteforest` | Travel to White Forest (open to all players) |
-    | `/server thewild` | Travel to The Wild resource world |
-    | `/end` | Travel to the End |
-    | `/nether` | Travel to the Nether |
-  </Tab>
+| Command | Destination |
+| --- | --- |
+| `/server blackcity` | Black City; legacy-player whitelist required. |
+| `/server whiteforest` | White Forest. |
+| `/server thewild` | The Wild. |
+| `/end` | The End. |
+| `/nether` | The Nether. |
 
-  <Tab title="Messaging & Economy">
-    | Command | What it does |
-    |---|---|
-    | `/msg <player> <message>` | Send a private message to a player |
-    | `/reply <message>` | Reply to your most recent private conversation |
-    | `/ignore <player>` | Hide messages from a player (where supported) |
-    | `/balance` | Check your current realm money balance |
-    | `/cobbledollars pay <player> <amount>` | Send money to another player — double-check the name and amount first |
-    | `/help` | Browse available command help |
-    | `/rules` | View the server rules in-game |
-    | `/discord` | Get the link to the Hikari Haven Discord server |
-  </Tab>
-</Tabs>
+<Info>
+  Items and Pokémon carry over between realms, but **money does not**.
+</Info>
+
+## Other useful commands to try
 
 <Note>
-  Some commands have cooldowns or require specific rank permissions. If a command appears unavailable, try the in-game autocomplete (press Tab) or ask a staff member for guidance.
+  These are common server commands. Availability, exact syntax, cooldowns, and limits may vary on Hikari Haven. Check in-game suggestions or ask staff if one is unavailable.
 </Note>
+
+| Command | What it does |
+| --- | --- |
+| `/tpaccept` / `/tpdeny` | Accept or decline a teleport request. |
+| `/tpahere <player>` | Ask another player to teleport to you. |
+| `/sethome <name>` / `/home <name>` | Save and visit named homes when enabled. |
+| `/delhome <name>` / `/homes` | Delete a saved home or list your homes. |
+| `/back` | Return to a previous location if supported; this may not include your death location. |
+| `/warps` / `/warp <name>` | List and visit public warps. |
+| `/rtp` | Request a random teleport where enabled. |
+| `/msg <player> <message>` | Send a private message. |
+| `/reply <message>` | Reply to your latest private conversation. |
+| `/ignore <player>` | Hide a player's messages where supported. |
+| `/balance` | Check your balance in the current realm. |
+| `/cobbledollars pay <player> <amount>` | Send money if payments are enabled. Check the recipient and amount. |
+| `/help`, `/rules`, `/discord` | Find help, rules, and the community link. |
+
+<Warning>
+  Only accept teleport requests from players you trust. Respect private bases and claims, and never use teleport commands to trap or harass someone.
+</Warning>

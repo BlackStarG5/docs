@@ -4,41 +4,26 @@ sidebarTitle: "Realms"
 description: "Hikari Haven has permanent building realms and resource worlds. Items and Pokémon carry between realms, but your money stays separate."
 ---
 
-Hikari Haven is divided into two types of worlds: **Building Realms**, where you settle down, construct a home, and put down permanent roots, and **Resource Worlds**, where you venture out to gather materials for your next big project. Your items and Pokémon travel with you between every realm, so you never lose your progress — but keep in mind that your in-game money balance is tracked separately in each realm.
+<Columns cols={2}>
+  <div style={{textAlign: 'center'}}>
+  <h2>Building realms</h2>
+  <p>Settle down, build a home, and make a place of your own. Respect neighboring builds and follow the land-claiming rules.</p>
+  <h3>Black City</h3>
+  <p>Whitelisted for legacy players.</p>
+  <p><code>/server blackcity</code></p>
+  <h3>White Forest</h3>
+  <p>A building realm for your next home.</p>
+  <p><code>/server whiteforest</code></p>
+</div>
 
-## Building Realms
-
-Building Realms are permanent, protected spaces designed for long-term settlement. Claim your land, build your base, and make it your own — just be sure to respect your neighbours and follow the land-claiming rules.
-
-<CardGroup cols={2}>
-  <Card title="Black City" icon="city" href="/getting-started/realms">
-    A building realm reserved for **legacy (whitelisted) players**. If you have been granted access, travel there with `/server blackcity`.
-  </Card>
-  <Card title="White Forest" icon="tree" href="/getting-started/realms">
-    The main building realm, **open to all players**. Find your plot, stake your claim, and start building with `/server whiteforest`.
-  </Card>
-</CardGroup>
-
-## Resource Worlds
-
-Resource Worlds are designed for exploration and gathering. Head there to mine, loot, and collect materials — but do not set up a permanent home in these worlds, as they may reset periodically.
-
-<CardGroup cols={3}>
-  <Card title="The Wild" icon="map" href="/getting-started/realms">
-    The overworld resource world. Gather wood, stone, and natural materials. Travel there with `/server thewild`.
-  </Card>
-  <Card title="The End" icon="moon" href="/getting-started/realms">
-    Hunt for End-exclusive resources and take on the Ender Dragon. Jump in with `/end`.
-  </Card>
-  <Card title="The Nether" icon="fire" href="/getting-started/realms">
-    Collect Nether-specific materials like Netherite and Blaze Rods. Travel there with `/nether`.
-  </Card>
-</CardGroup>
-
-<Note>
-  Your **items and Pokémon carry over** between all realms — you will never arrive empty-handed. However, your **money balance does not transfer**: each realm maintains its own separate economy, so check your `/balance` after switching worlds.
-</Note>
-
-<Tip>
-  Run `/sethome` to save your base location before jumping into a resource world. That way you can always `/home` straight back when you are done gathering.
-</Tip>
+  <div style={{textAlign: 'center'}}>
+  <h2>Resource worlds</h2>
+  <p>The Wild, End, and Nether are places to explore and gather materials for your next project. Prepare your supplies before heading out.</p>
+  <h3>The Wild</h3>
+  <p><code>/server thewild</code></p>
+  <h3>End</h3>
+  <p><code>/end</code></p>
+  <h3>Nether</h3>
+  <p><code>/nether</code></p>
+</div>
+</Columns>

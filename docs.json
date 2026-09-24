@@ -1,72 +1,95 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "name": "Hikari Haven",
-  "theme": "almond",
+  "theme": "mint",
   "colors": {
-    "primary": "#7C9EBF",
-    "light": "#B8D4E8",
-    "dark": "#2E4A66"
+    "primary": "#E9A0CA",
+    "light": "#F3B8DB",
+    "dark": "#A85D98"
   },
-  "favicon": "/favicon.svg",
+  "favicon": "/images/Treynami_Server_Icon_Commission.png",
   "navigation": {
-    "tabs": [
+    "pages": [
+      "introduction",
       {
-        "tab": "Player Guide",
-        "groups": [
+        "group": "Updates",
+        "pages": [
+          "updates/cobblemon-1.8"
+        ]
+      },
+      {
+        "group": "New Player Info",
+        "pages": [
+          "getting-started/server-rules",
           {
-            "group": "Welcome",
+            "group": "Installation",
+            "root": "getting-started/installation",
             "pages": [
-              "introduction",
-              "updates/cobblemon-1.8"
+              "new-player-info/installation/modrinth"
             ]
           },
           {
             "group": "Getting Started",
+            "root": "new-player-info/getting-started",
             "pages": [
-              "getting-started/installation",
               "getting-started/spawn",
-              "getting-started/realms",
-              "getting-started/basic-commands",
-              "getting-started/server-rules"
+              "getting-started/realms"
             ]
           },
-          {
-            "group": "Pokémon & Battling",
-            "pages": [
-              "features/battle-gimmicks",
-              "features/breeding",
-              "features/raid-dens",
-              "features/expeditions",
-              "features/pokenav",
-              "features/safari"
-            ]
-          },
-          {
-            "group": "Economy & Activities",
-            "pages": [
-              "features/cobbledollars",
-              "features/quests",
-              "features/tcg-cards",
-              "features/mini-games",
-              "features/slot-machines"
-            ]
-          },
-          {
-            "group": "Building & Customization",
-            "pages": [
-              "features/land-claiming",
-              "features/create-mod",
-              "features/pokeball-capsules"
-            ]
-          }
+          "getting-started/basic-commands",
+          "new-player-info/hikari-haven-faq"
+        ]
+      },
+      {
+        "group": "Features",
+        "pages": [
+          "features/battle-gimmicks",
+          "features/breeding",
+          "features/cobbledollars",
+          "features/create-mod",
+          "features/expeditions",
+          "features/land-claiming",
+          "features/mini-games",
+          "features/pokeball-capsules",
+          "features/pokenav",
+          "features/quests",
+          "features/raid-dens",
+          "features/safari",
+          "features/slot-machines",
+          "features/tcg-cards"
         ]
       }
     ]
   },
   "navbar": {
     "primary": {
-      "type": "github",
-      "href": "https://github.com/BlackStarG5/hikari-haven-wiki"
+      "type": "button",
+      "href": "https://modrinth.com/modpack/treys-cobblemon-server",
+      "label": "Download Modpack"
+    },
+    "links": [
+      {
+        "icon": "discord",
+        "href": "https://discord.gg/TRGejrJNwf",
+        "label": "Join Discord"
+      }
+    ]
+  },
+  "appearance": {
+    "default": "dark",
+    "strict": false
+  },
+  "background": {
+    "color": {
+      "light": "#FFF9FC",
+      "dark": "#1B191E"
     }
+  },
+  "fonts": {
+    "family": "Inter"
+  },
+  "logo": {
+    "light": "/images/Treynami_Server_Icon_Commission.png",
+    "dark": "/images/Treynami_Server_Icon_Commission.png"
   }
 }
