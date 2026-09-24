@@ -1,0 +1,97 @@
+{
+  "projectType": "saas",
+  "projectName": "Hikari Haven",
+  "projectDescription": "Hikari Haven is a free-to-play Pokémon anime-inspired Cobblemon SMP (survival multiplayer) Minecraft server where players explore, battle, breed, and build together.",
+  "theme": "almond",
+  "primaryColor": "#7C9EBF",
+  "lightColor": "#B8D4E8",
+  "darkColor": "#2E4A66",
+  "navigation": {
+    "tabs": [
+      {
+        "tab": "Player Guide",
+        "groups": [
+          {
+            "group": "Welcome",
+            "pages": [
+              "introduction",
+              "updates/cobblemon-1.8"
+            ]
+          },
+          {
+            "group": "Getting Started",
+            "pages": [
+              "getting-started/installation",
+              "getting-started/spawn",
+              "getting-started/realms",
+              "getting-started/basic-commands",
+              "getting-started/server-rules"
+            ]
+          },
+          {
+            "group": "Pokémon & Battling",
+            "pages": [
+              "features/battle-gimmicks",
+              "features/breeding",
+              "features/raid-dens",
+              "features/expeditions",
+              "features/pokenav",
+              "features/safari"
+            ]
+          },
+          {
+            "group": "Economy & Activities",
+            "pages": [
+              "features/cobbledollars",
+              "features/quests",
+              "features/tcg-cards",
+              "features/mini-games",
+              "features/slot-machines"
+            ]
+          },
+          {
+            "group": "Building & Customization",
+            "pages": [
+              "features/land-claiming",
+              "features/create-mod",
+              "features/pokeball-capsules"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "keyFeatures": [
+    "Cobblemon SMP with free-to-play, no pay-to-win model",
+    "Mega Evolution, Z-Moves, and Terastallization battle gimmicks",
+    "Pokémon breeding with IV/nature inheritance",
+    "Multiplayer Raid Dens with shared-HP boss battles",
+    "18 type-themed Safari biomes",
+    "PC Expedition missions with Team Expedition Power system",
+    "Pokémon TCG card collecting, grading, and display",
+    "Create Mod automation and workshop building",
+    "Land claiming with party-based access control",
+    "Arcade mini-games with Arcade Coins",
+    "Gacha capsule machines using Relic Coins",
+    "PokeNav for spawn tracking and Pokémon finding",
+    "FTB Quests integration for guided objectives",
+    "Ball Capsule cosmetic send-out effects",
+    "CobbleDollars in-game economy with merchants"
+  ],
+  "publicApiSurface": [
+    "/spawn — Return to Spawn",
+    "/sethome, /home — Set and visit saved homes",
+    "/tpa <player>, /tpaccept, /tpdeny — Teleport requests",
+    "/server blackcity, /server whiteforest, /server thewild — World travel",
+    "/end, /nether — Dimension travel",
+    "/balance — Check CobbleDollars balance",
+    "/cobbledollars pay <player> <amount> — Send money",
+    "/expedition check — View active expeditions",
+    "/expedition rewards — Collect expedition rewards",
+    "/oclaims, /oparties, /opac — Land claiming and party management",
+    "/warps, /warp <name> — Public warp locations",
+    "/rtp — Random teleport",
+    "/msg <player> <message>, /reply — Private messaging",
+    "/help, /rules, /discord — Help and community links"
+  ]
+}

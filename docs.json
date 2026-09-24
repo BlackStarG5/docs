@@ -1,72 +1,72 @@
 {
   "$schema": "https://mintlify.com/docs.json",
-  "theme": "mint",
-  "name": "Mintlify Starter Kit",
+  "name": "Hikari Haven",
+  "theme": "almond",
   "colors": {
-    "primary": "#16A34A",
-    "light": "#07C983",
-    "dark": "#15803D"
+    "primary": "#7C9EBF",
+    "light": "#B8D4E8",
+    "dark": "#2E4A66"
   },
   "favicon": "/favicon.svg",
   "navigation": {
-    "pages": [
+    "tabs": [
       {
-        "group": "Getting Started",
-        "pages": [
-          "index",
-          "quickstart"
+        "tab": "Player Guide",
+        "groups": [
+          {
+            "group": "Welcome",
+            "pages": [
+              "introduction",
+              "updates/cobblemon-1.8"
+            ]
+          },
+          {
+            "group": "Getting Started",
+            "pages": [
+              "getting-started/installation",
+              "getting-started/spawn",
+              "getting-started/realms",
+              "getting-started/basic-commands",
+              "getting-started/server-rules"
+            ]
+          },
+          {
+            "group": "Pokémon & Battling",
+            "pages": [
+              "features/battle-gimmicks",
+              "features/breeding",
+              "features/raid-dens",
+              "features/expeditions",
+              "features/pokenav",
+              "features/safari"
+            ]
+          },
+          {
+            "group": "Economy & Activities",
+            "pages": [
+              "features/cobbledollars",
+              "features/quests",
+              "features/tcg-cards",
+              "features/mini-games",
+              "features/slot-machines"
+            ]
+          },
+          {
+            "group": "Building & Customization",
+            "pages": [
+              "features/land-claiming",
+              "features/create-mod",
+              "features/pokeball-capsules"
+            ]
+          }
         ]
       }
-    ],
-    "global": {
-      "anchors": [
-        {
-          "anchor": "Documentation",
-          "href": "https://mintlify.com/docs",
-          "icon": "book-open-cover"
-        },
-        {
-          "anchor": "Blog",
-          "href": "https://mintlify.com/blog",
-          "icon": "newspaper"
-        }
-      ]
-    }
-  },
-  "logo": {
-    "light": "/logo/light.svg",
-    "dark": "/logo/dark.svg"
-  },
-  "navbar": {
-    "links": [
-      {
-        "label": "Support",
-        "href": "mailto:hi@mintlify.com"
-      }
-    ],
-    "primary": {
-      "type": "button",
-      "label": "Dashboard",
-      "href": "https://app.mintlify.com"
-    }
-  },
-  "contextual": {
-    "options": [
-      "copy",
-      "view",
-      "chatgpt",
-      "claude",
-      "perplexity",
-      "mcp",
-      "cursor",
-      "vscode"
     ]
   },
-  "footer": {
-    "socials": {
-      "x": "https://x.com/mintlify",
-      "github": "https://github.com/mintlify",
-      "linkedin": "https://linkedin.com/company/mintlify"
+  "navbar": {
+    "primary": {
+      "type": "github",
+      "href": "https://github.com/BlackStarG5/hikari-haven-wiki"
     }
   }
 }
